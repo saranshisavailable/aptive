@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero {
+    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--darkgrey);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero .container {
+    width: 100vw;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 50px 0 100px;
+    max-width: 750px;
+}
+
+.col-1 h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.col-1 .primary-color {
+    color: var(--primary);
+}
+
+.col-1 p {
+    margin: 20px 0;
+    color: var(--grey);
+}
+
+.col-2 {
+    background-color: white;
+    margin: 50px 200px 0 0;
+    width: 400px;
+    border-radius: 10px;
+    font-size: .9rem;
+}
+
+.form-layout {
+    padding: 20px;
+}
+
+.social-login {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.social-login i {
+    border: solid 1px var(--lightgrey);
+    border-radius: 5px;
+    padding: 10px 45px;
+}
+
+.sign-in-txt {
+    color: var(--grey);
+    padding: 10px 0 0 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-container .divider {
+    margin: 20px 0 30px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: var(--grey);
+    border-bottom: solid 1px var(--lightgrey);
+}
+
+.form-container .divider p {}
+
+
+.form-container form input {
+    height: 30px;
+    width: 350px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.form-layout .form-footer {
+    border-top: 1px solid var(--grey);
+    margin-right: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    color: var(--grey);
+    width: 100%;
+}
+
+.create-button {
+    max-width: 350px;
+
+}
+
+.primary-color {
+    color: var(--primary);
+}
+
+.used-by {
+    color: var(--grey);
+}
+
+.used-by p {
+    color: var(--lightgrey);
+}
+
+.used-by .icons i {
+    margin: 10px;
+}
